@@ -1,0 +1,402 @@
+{
+  "header": {
+    "name": "Yasin Efe",
+    "title": "Lead Software Engineer",
+    "type": "Contractor",
+    "email": "yasinefe@gmail.com",
+    "mobile": "* **** ****",
+    "linkedin": "linkedin.com/in/yasinefe",
+    "github": "github.com/yasinefe"
+  },
+  "profile": {
+    "title": "PROFILE",
+    "expanded": true,
+    "items": [
+      "Excellent knowledge and <b>more than 15 years</b> hands-on experience in all phases of <b>back-end application/service</b> development, using <b>Java and Spring Framework</b>. Highly skilled in implementing <b>Scalable & High Available</b> application and microservices. Experience of designing interfaces with <b>REST APIs</b> and <b>Web Services</b>. Strong understanding of applying <b>Agile and Extreme Programming</b>, Test Driven Development <b>(TDD)</b> and Behaviour Driven Development <b>(BDD)</b>, Continuous Integration <b>(CI)</b> and Delivery <b>(CD)</b>, <b>Pair Programming</b> to deliver well designed and tested applications and services.",
+      "Passionate about using new technologies and applying them to real world problems. Interested in <b>Computer Mathematics, Algorithms, Artificial Intelligence, Machine Learning</b> and <b>Deep Learning</b>."
+    ]
+  },
+  "technicalSkills": {
+    "title": "TECHNICAL SKILLS",
+    "expanded": true,
+    "items": [
+      {
+        "name": "Languages",
+        "expanded": true,
+        "items": [
+          "Java 11",
+          "Groovy",
+          "Python",
+          "Kotlin",
+          "Node JS",
+          "OOP",
+          "Functional Programming",
+          "Reactive Programming",
+          "Design Patterns"
+        ]
+      },
+      {
+        "name": "Frameworks",
+        "expanded": true,
+        "items": [
+          "Spring Framework (Core, MVC, WebFlux, JDBC, AOP, JaxWS, REST, Cache, Transaction Management, Security, JPA, JMS and Hibernate Support)",
+          "Spring Boot",
+          "Akka (Actors, Streams, FSM, Persistence, Cluster, Distributed Data)",
+          "Project Reactor",
+          "Apache Camel",
+          "JMX",
+          "JPA",
+          "Hibernate",
+          "Maven",
+          "Gradle",
+          "NPM"
+        ]
+      },
+      {
+        "name": "Queues",
+        "expanded": true,
+        "items": [
+          "Active MQ",
+          "Rabbit MQ",
+          "Kafka"
+        ]
+      },
+      {
+        "name": "Web Frameworks",
+        "expanded": true,
+        "items": [
+          "React JS",
+          "Angular",
+          "HTML",
+          "Java Script",
+          "CSS",
+          "Material UI",
+          "Bootstrap",
+          "GraphQL"
+        ]
+      },
+      {
+        "name": "Processes",
+        "expanded": true,
+        "items": [
+          "Agile & Extreme Programming",
+          "Scrum",
+          "Kanban",
+          "Continuous Integration (CI)",
+          "Continuous Delivery (CD)",
+          "GitLab Pipelines",
+          "Jenkins",
+          "Bamboo",
+          "Concourse",
+          "Code Review",
+          "Pair Programming"
+        ]
+      },
+      {
+        "name": "Test Driven Development (TDD)",
+        "expanded": true,
+        "items": [
+          "JUnit",
+          "Mockito",
+          "EasyMock",
+          "Scala Test",
+          "Kotlin Test"
+        ]
+      },
+      {
+        "name": "Behaviour Driven Development (BDD)",
+        "expanded": true,
+        "items": [
+          "Cucumber",
+          "JBehave",
+          "Spock",
+          "Geb and Wiremock"
+        ]
+      },
+      {
+        "name": "Protocols",
+        "expanded": true,
+        "items": [
+          "REST Services (JSON and XML)",
+          "Web Services",
+          "SOAP",
+          "HTTP/S",
+          "TCP",
+          "FTP",
+          "SNMP",
+          "SMPP",
+          "SS7",
+          "TLS"
+        ]
+      },
+      {
+        "name": "Cloud & Container",
+        "expanded": true,
+        "items": [
+          "Cloud Foundry",
+          "PCF",
+          "AWS",
+          "Docker",
+          "Kubernetes",
+          "Google Cloud Platform (GCP)",
+          "Azure"
+        ]
+      },
+      {
+        "name": "Tools",
+        "expanded": true,
+        "items": [
+          "IntelliJ Idea",
+          "XCode",
+          "Eclipse",
+          "Jira",
+          "Nexus",
+          "Jacoco",
+          "Git (GitHub, GitLab)",
+          "Terraform, Helm",
+          "Kibana",
+          "Prometheus",
+          "Apigee"
+        ]
+      },
+      {
+        "name": "Databases",
+        "expanded": true,
+        "items": [
+          "Oracle",
+          "PL-SQL",
+          "My SQL",
+          "HSQL",
+          "MongoDB",
+          "Elastic Search",
+          "Cosmos DB"
+        ]
+      },
+      {
+        "name": "Application Servers",
+        "expanded": true,
+        "items": [
+          "Apache Server",
+          "Tomcat",
+          "Jetty",
+          "OC4J",
+          "JBoss"
+        ]
+      },
+      {
+        "name": "Operating Systems",
+        "expanded": true,
+        "items": [
+          "Linux",
+          "Solaris",
+          "Shell/Bash Script"
+        ]
+      }
+    ]
+  },
+  "careerHistory": {
+    "title": "CAREER HISTORY",
+    "expanded": true,
+    "items": [
+      {
+        "expanded": true,
+        "company": "UBS",
+        "period": "2019/11 – Present",
+        "title": "Lead Java Developer – Contractor",
+        "items": [
+          "Designed and developed microservices using <b>Java 8</b>, <b>Spring Boot</b> exposing <b>REST</b> APIs for external & internal clients.",
+          "Integrated microservices using <b>Kafka</b> and <b>Kafka Streams</b>, with <b>Avro Schema</b> and <b>Schema Registry</b>.",
+          "Implemented <b>REST</b> APIs using <b>JWT</b> authentication and developed authorization service using <b>HSM</b> for external clients.",
+          "Defined and built infrastructure on <b>Azure</b> and <b>Cosmos DB</b> using <b>Infrastructure as Code</b> approach with <b>Terraform</b>.",
+          "<b>Other technologies used:</b> Lombok, Jira, IntelliJ, Cucumber, Mockito, Spring JPA, Maven, TeamCity, Jacoco, GitHub, OpenAPI."
+        ],
+        "projectTitle": "Projects",
+        "projectItems": [
+          "<b>GED (Global Equity Derivatives) - Microservices:</b> Provides trading services for Client Facing Sales and Trading platform."
+        ]
+      },
+      {
+        "expanded": true,
+        "company": "Mastercard",
+        "period": "2018/07 – 2019/11 (1y 5m)",
+        "title": "Lead Java Developer – Contractor",
+        "items": [
+          "Developed microservices using <b>Java 11</b>, <b>Kotlin</b>, <b>Spring Boot</b>, <b>Akka</b> backed with <b>Casandra</b>, <b>VoltDB</b> and <b>Oracle DB</b>.",
+          "Integrated microservices using <b>Kafka</b>, <b>Akka</b> (<b>Streams</b>, <b>Http</b>, <b>Persistence</b>, <b>Cluster</b> and <b>Distributed Data</b>), <b>REST</b>.",
+          "Built infrastructure on <b>GCP</b> (Google Cloud Platform) using <b>Infrastructure as Code</b> approach with <b>Terraform</b>.",
+          "Worked in agile environment, developed microservices <b>TDD</b>, <b>BDD</b>, fully automated <b>CI</b> and <b>CD</b>.",
+          "Containerised and deployed microservices using <b>Docker</b>, <b>Kubernetes</b>, <b>Helm</b> on <b>GCP</b>.",
+          "Designed and created <b>highly available</b>, <b>low latency</b> services to support <b>10K</b> transaction per second.",
+          "Integrated microservices with <b>EFK</b> (Elastic Search, FluentD, Kibana) for log monitoring and tracing.",
+          "Designed to provide highly secure payment system which will be deployed on <b>Critical National Infrastructure</b> of a country.",
+          "<b>Other technologies used:</b> Flyway, Lombok, Jira, IntelliJ, Cucumber, Mockito, Spring JPA, Kotlin Test, Gradle, Maven, SonarQube, Snyk, Jacoco, PI Test, GitLab and GitLab Pipelines."
+        ],
+        "projectTitle": "Projects",
+        "projectItems": [
+          "<b>IPSX – Microservices:</b> Next-Gen Instant Payment System (real time payment processor) developed with Java 11 and Akka."
+        ]
+      },
+      {
+        "expanded": true,
+        "company": "HSBC",
+        "period": "2017/04 – 2018/06 (1y 3m)",
+        "title": "Senior Java Developer – Contractor",
+        "items": [
+          "Developed and integrated operable microservices using <b>Java 8</b>, <b>Spring Boot</b> backed with <b>MongoDB</b>.",
+          "Integrated microservices with <b>Spring Cloud Config</b> to centralise and make config changes without interruption.",
+          "Implemented <b>GraphQL</b> based API to provide flexible, performant and client centric endpoint.",
+          "Provided reactive APIs using <b>Reactive Programming</b> with Java Reactor library and spring mvc reactor support.",
+          "Used <b>PCF</b> (Pivotal Cloud Foundry) to deploy, scale and maintain multiple environments for microservices.",
+          "Integrated microservices with <b>Splunk</b> to monitor services and trace transactions for different environments.",
+          "Worked in agile environment, developed microservices with <b>TDD</b>, <b>BDD</b>, <b>CI</b> and <b>CD</b>.",
+          "<b>Other technologies used:</b> Splunk, Jira, IntelliJ, Swagger, Cucumber, Mockito."
+        ],
+        "projectTitle": "Projects",
+        "projectItems": [
+          "<b>TED – Microservices:</b> Provides GraphQL and REST APIs for a tablet application, used by staff in HSBC branches."
+        ]
+      },
+      {
+        "expanded": false,
+        "company": "Marks & Spencer",
+        "period": "2016/07 – 2017/03 (9m)",
+        "title": "Lead & Senior Java Developer - Contractor",
+        "items": [
+          "<b>Mentored</b> and <b>guided</b> team members to improve their technical skills focusing on <b>TDD</b>, <b>Agile</b> and <b>CI</b> / <b>CD</b>.",
+          "Developed microservices which expose <b>REST</b> interfaces using <b>Java 8</b> and <b>Spring Boot</b>.",
+          "Used <b>AWS</b>, <b>Cloud Foundry</b> and <b>Docker</b> to deploy microservices, such as Product, Price, Category etc.",
+          "Built <b>AWS</b> infrastructure using <b>Terraform</b> such as VPC, Subnet, EC2, RDS, S3, Routing, Volumes, Lambda, etc.",
+          "Worked in <b>Agile</b> environment using <b>Scrum</b> and <b>Kanban</b> with <b>TDD</b> (Mockito), <b>BDD</b> and <b>Pair Programming</b>.",
+          "Created pipeline to build, release, deploy and deliver microservices using <b>Concourse CI</b> and <b>CD</b> tool.",
+          "Designed and created operable and maintainable microservices using <b>Pingdom</b>, <b>Loggly</b> and <b>Log Entries</b> tool.",
+          "Used <b>RabbitMQ</b> and <b>Kafka</b> to retrieve and store xml data exported from SAP system.",
+          "<b>Other technologies used:</b> Apigee, Terragrunt, Trello, Jira, IntelliJ, Node JS, Swagger."
+        ],
+        "projectTitle": "Projects",
+        "projectItems": [
+          "<b>Product Services – Microservices:</b> Provides REST APIs for mns.com and mobile app to sell products online.",
+          "<b>Price Services – Microservices:</b> Provides REST APIs for third parties and customer services."
+        ]
+      },
+      {
+        "expanded": false,
+        "company": "Sky",
+        "period": "2014/10 – 2016/06 (1y 9m)",
+        "title": "Senior Java Developer - Contractor",
+        "items": [
+          "Developed microservices which expose HAL and HATEOAS based REST interfaces using Java and Python.",
+          "Used Spring Boot, Groovy to provide APIs designed as microservices for Single Sign On project (SkyID).",
+          "Implemented Single Sign On APIs for authentication and authrorisation using OAuth 2 specification.",
+          "Worked in pure Agile process with TDD, BDD (Spock and Cucumber) and Pair Programming.",
+          "Experienced using Gradle and Jenkins for continuous integration and fully automated deployment process.",
+          "Implemented database requirements using Cassandra DB and Memcached for the applications.",
+          "Used Nimbus cloud system (Cloud Foundry) to deploy and run the applications on different environments.",
+          "Used GIT with branch per feature and workflow approaches to manage sources.",
+          "Other technologies used: IntelliJ, Nexus, Tomcat, Unix, JUnit, Mockito."
+        ],
+        "projectTitle": "Projects",
+        "projectItems": [
+          "PSP – Product Sales Channel – Microservices: Provides REST APIs to allow Sky customers to buy Sky products online.",
+          "SkyID – Microservices: Provides HATEOAS based REST APIs to allow Sky customers to manage their sky account."
+        ]
+      },
+      {
+        "expanded": false,
+        "company": "Salmon",
+        "period": "2013/08 – 2014/09 (1y 2m)",
+        "title": "Senior Java Developer - Contractor",
+        "items": [
+          "Developed several back-end applications using J2EE, Design Patterns, OOP and Spring Framework.",
+          "Established an effective solution to change existing SOAP web services to REST (JSON) using Spring MVC.",
+          "Used Spring Security with session based and HTTP Basic authentication to provide secure REST web services.",
+          "Customized and configured Spring Security to provide highly secure REST web services with encryption.",
+          "Solved all cross-domain problems faced on front end, implemented client and back-end solutions.",
+          "Developed applications using Test Driven Development (TDD) with JUnit and Mockito.",
+          "Other technologies used: Maven, JMS, Active MQ, JSP, HTML, JavaScript, CSS, AJAX, JQuery, Pair Programming, Eclipse, Archiva, Cobertura, SVN, SOAP UI, Selenium, My SQL, Tomcat, Apache Server and Unix."
+        ],
+        "projectTitle": "Projects",
+        "projectItems": [
+          "MyAudi – Microservices: Provides more than 100 secure and non-secure REST services using ESB and SOA architecture.",
+          "AUDI Product DB Services: Manages all data for Audi cars and related products, exposes 50 WS interfaces for clients.",
+          "AUDI Web Services: Provides REST interfaces for front end forms in Audi.co.uk and Audi mobile applications."
+        ]
+      },
+      {
+        "expanded": false,
+        "company": "Vodafone",
+        "period": "2009/12 – 2013/06 (3y 7m)",
+        "title": "Lead & Senior Java Developer",
+        "items": [
+          "Designed and developed various enterprise back-end applications using Java, J2EE and Spring Framework.",
+          "Used many modules of Spring Framework such as JDBC, Hibernate, Transaction, AOP, JaxWS, MVC, Cache.",
+          "Developed numerous web applications using Spring MVC, JSP, HTML, JavaScript, JQuery, CSS and AJAX.",
+          "Researched and implemented MapReduce functions to query users in a specific location using Hadoop, HDFS.",
+          "Refactored existing applications using OOP, Design Patterns and SOLID principles.",
+          "Defined required interfaces and implemented them for n-tier systems using SOAP and REST (JSON and XML).",
+          "Developed a number of web services using Spring MVC, JaxWS, Axis, Spring Security and WSS.",
+          "Implemented several scalable, highly available and multi-threaded applications which run in low latency.",
+          "Integrated projects with Continuous Integration tool (Bamboo), and configured it to be used more efficiently.",
+          "Implemented requirements using TDD with JUnit, Mockito, Easy Mock and BDD with JBehave, Spock and GEB.",
+          "Designed and developed a reusable application to keep web services backward compatible using Groovy.",
+          "Created functional tests using Groovy, led the test team to use Groovy for acceptance tests.",
+          "Used a number of protocols such as HTTP, TCP, FTP, JMX, JMS and SNMP to develop integrated applications.",
+          "Defined database models for various applications, and used ORM tools, such as Hibernate, JPA.",
+          "Researched Enterprise Service Bus solutions, to provide authorization, throttling and routing functionalities.",
+          "Performed load testing using JMeter and SOAP UI, provided solutions for performance related issues.",
+          "Other technologies used: Maven, Eclipse, Toad, Jira, Nexus, Archiva, Clover, Sonar, Crucible, Cobertura, Jira Agile, CVS, SVN, Oracle, PL-SQL, Tomcat, Jetty, Unix and Solaris."
+        ]
+      },
+      {
+        "expanded": false,
+        "company": "BNP Paribas",
+        "period": "2008/04 – 2009/11 (1y 8m)",
+        "title": "Senior Java Developer",
+        "items": [
+          "Led a development team to create an online banking application using Java, Spring Framework and Struts.",
+          "Developed a web application with French colleagues in a multinational environment using internationalisation.",
+          "Researched a number of rich client solutions such as ExtJS, JQuery, Backbone, and created prototypes.",
+          "Developed a rich client web application using JSP, HTML, JavaScript, JQuery, CSS, AJAX and JSTL.",
+          "Found a specific solution for each performance issue of a Single Page Application (SPA) and increased quality.",
+          "Other technologies used: Design Patterns, OOP, Spring Framework (Core, JDBC Dao Support, Cache, Transaction Management), Web Service, SOAP, HTTP, Toad, Clear Case, RSA, Selenium Web Drivers, Oracle, PL-SQL, OC4J, Web Sphere and Unix."
+        ]
+      },
+      {
+        "expanded": false,
+        "company": "Vodafone",
+        "period": "2005/04 – 2008/03 (3y)",
+        "title": "Java Developer",
+        "items": [
+          "Designed and developed a number of back-end applications using Java, J2EE and Spring Framework.",
+          "Developed several web applications using Spring MVC, Struts, JSP, HTML, JQuery, CSS and AJAX.",
+          "Redesigned and refactored existing applications using OOP Design Patterns and SOLID principles.",
+          "Developed many applications, which expose SOAP web services using Spring MVC, JaxWS, Axis.",
+          "Designed and developed scalable, highly available and multi-threaded applications using Java Concurrency.",
+          "Implemented applications using Test Driven Development (TDD) with JUnit and Easy Mock.",
+          "Used a number of protocols such as HTTP, TCP, FTP, SMPP and SNMP to develop integrated applications.",
+          "Performed load tests using various simulators, revised and fixed performance related issues.",
+          "Developed an application to provide Single Sign-On (SSO), authentication and authorisation functionalities.",
+          "Implemented a fully configurable client application to provide monitoring capabilities using SNMP protocol.",
+          "Other technologies used: Spring Framework, Hibernate, Eclipse, Toad, Jira, Bamboo, Cobertura, CVS, Oracle, PL-SQL, My SQL, HSQL, Tomcat, Jetty, Unix and Solaris."
+        ]
+      },
+      {
+        "expanded": false,
+        "company": "Millitary Service (KKK)",
+        "period": "2004/07 – 2005/03 (9m)",
+        "title": "Web Application Developer"
+      },
+      {
+        "expanded": false,
+        "company": "Cozum Software Services",
+        "period": "2002/08 – 2004/03 (1y 8m)",
+        "title": "Application Developer – Part Time"
+      },
+      {
+        "expanded": false,
+        "company": "Markum.NET",
+        "period": "2001/03 – 2001/10 (8m)",
+        "title": "Application Developer – Part Time"
+      }
+    ]
+  }
+}
