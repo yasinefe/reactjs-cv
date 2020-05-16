@@ -206,6 +206,7 @@
         "items": [
           "Designed and developed microservices using <b>Java 8</b>, <b>Spring Boot</b> exposing <b>REST</b> APIs for external & internal clients.",
           "Integrated microservices using <b>Kafka</b> and <b>Kafka Streams</b>, with <b>Avro Schema</b> and <b>Schema Registry</b>.",
+          "Created a user interface to visualise complex data flow through microservices using <b>React JS</b> and <b>Material UI</>.",
           "Implemented <b>REST</b> APIs using <b>JWT</b> authentication and developed authorization service using <b>HSM</b> for external clients.",
           "Defined and built infrastructure on <b>Azure</b> and <b>Cosmos DB</b> using <b>Infrastructure as Code</b> approach with <b>Terraform</b>.",
           "<b>Other technologies used:</b> Lombok, Jira, IntelliJ, Cucumber, Mockito, Spring JPA, Maven, TeamCity, Jacoco, GitHub, OpenAPI."
@@ -257,7 +258,7 @@
         ]
       },
       {
-        "expanded": false,
+        "expanded": true,
         "company": "Marks & Spencer",
         "period": "2016/07 – 2017/03 (9m)",
         "title": "Lead & Senior Java Developer - Contractor",
@@ -279,46 +280,46 @@
         ]
       },
       {
-        "expanded": false,
+        "expanded": true,
         "company": "Sky",
         "period": "2014/10 – 2016/06 (1y 9m)",
         "title": "Senior Java Developer - Contractor",
         "items": [
-          "Developed microservices which expose HAL and HATEOAS based REST interfaces using Java and Python.",
-          "Used Spring Boot, Groovy to provide APIs designed as microservices for Single Sign On project (SkyID).",
-          "Implemented Single Sign On APIs for authentication and authrorisation using OAuth 2 specification.",
-          "Worked in pure Agile process with TDD, BDD (Spock and Cucumber) and Pair Programming.",
-          "Experienced using Gradle and Jenkins for continuous integration and fully automated deployment process.",
-          "Implemented database requirements using Cassandra DB and Memcached for the applications.",
-          "Used Nimbus cloud system (Cloud Foundry) to deploy and run the applications on different environments.",
-          "Used GIT with branch per feature and workflow approaches to manage sources.",
-          "Other technologies used: IntelliJ, Nexus, Tomcat, Unix, JUnit, Mockito."
+          "Developed microservices which expose <b>HAL</b> and <b>HATEOAS</b> based <b>REST</b> interfaces using <b>Java</b> and <b>Python</b>.",
+          "Used <b>Spring Boot</b>, <b>Groovy</b> to provide APIs designed as <b>microservices</b> for Single Sign On project (SkyID).",
+          "Implemented <b>Single Sign On</b> APIs for authentication and authorisation using <b>OAuth 2</b> specification.",
+          "Worked in pure <b>Agile</b> process with <b>TDD</b>, <b>BDD</b> (Spock and Cucumber) and <b>Pair Programming</b>.",
+          "Experienced using <b>Gradle</b> and <b>Jenkins</b> for continuous integration and fully automated deployment process.",
+          "Implemented database requirements using <b>Cassandra DB</b> and <b>Memcached</b> for the applications.",
+          "Used <b>Nimbus</b> cloud system (<b>Cloud Foundry</b>) to deploy and run the applications on different environments.",
+          "Used GIT with <b>branch</b> per feature and <b>workflow</b> approaches to manage sources.",
+          "<b>Other technologies used:</b> IntelliJ, Nexus, Tomcat, Unix, JUnit, Mockito."
         ],
         "projectTitle": "Projects",
         "projectItems": [
-          "PSP – Product Sales Channel – Microservices: Provides REST APIs to allow Sky customers to buy Sky products online.",
-          "SkyID – Microservices: Provides HATEOAS based REST APIs to allow Sky customers to manage their sky account."
+          "<b>PSP – Product Sales Channel – Microservices:</b> Provides REST APIs to allow Sky customers to buy Sky products online.",
+          "<b>SkyID – Microservices:</b> Provides HATEOAS based REST APIs to allow Sky customers to manage their sky account."
         ]
       },
       {
-        "expanded": false,
+        "expanded": true,
         "company": "Salmon",
         "period": "2013/08 – 2014/09 (1y 2m)",
         "title": "Senior Java Developer - Contractor",
         "items": [
-          "Developed several back-end applications using J2EE, Design Patterns, OOP and Spring Framework.",
-          "Established an effective solution to change existing SOAP web services to REST (JSON) using Spring MVC.",
-          "Used Spring Security with session based and HTTP Basic authentication to provide secure REST web services.",
-          "Customized and configured Spring Security to provide highly secure REST web services with encryption.",
-          "Solved all cross-domain problems faced on front end, implemented client and back-end solutions.",
-          "Developed applications using Test Driven Development (TDD) with JUnit and Mockito.",
-          "Other technologies used: Maven, JMS, Active MQ, JSP, HTML, JavaScript, CSS, AJAX, JQuery, Pair Programming, Eclipse, Archiva, Cobertura, SVN, SOAP UI, Selenium, My SQL, Tomcat, Apache Server and Unix."
+          "Developed several back-end applications using <b>J2EE</b>, <b>Design Patterns</b>, <b>OOP</b> and <b>Spring Framework</b>.",
+          "Established an effective solution to change existing <b>SOAP</b> web services to <b>REST (JSON)</b> using <b>Spring MVC</b>.",
+          "Used <b>Spring Security</b> with session based and <b>HTTP Basic</b> authentication to provide secure REST web services.",
+          "Customized and configured <b>Spring Security</b> to provide highly secure REST web services with encryption.",
+          "Solved all <b>cross-domain</b> problems faced on front end, implemented client and back-end solutions.",
+          "Developed applications using <b>Test Driven Development</b> (TDD) with <b>JUnit</b> and <b>Mockito</b>.",
+          "<b>Other technologies used:</b> Maven, JMS, Active MQ, JSP, HTML, JavaScript, CSS, AJAX, JQuery, Pair Programming, Eclipse, Archiva, Cobertura, SVN, SOAP UI, Selenium, My SQL, Tomcat, Apache Server and Unix."
         ],
         "projectTitle": "Projects",
         "projectItems": [
-          "MyAudi – Microservices: Provides more than 100 secure and non-secure REST services using ESB and SOA architecture.",
-          "AUDI Product DB Services: Manages all data for Audi cars and related products, exposes 50 WS interfaces for clients.",
-          "AUDI Web Services: Provides REST interfaces for front end forms in Audi.co.uk and Audi mobile applications."
+          "<b>MyAudi – Microservices:</b> Provides more than 100 secure and non-secure REST services using ESB and SOA architecture.",
+          "<b>AUDI Product DB Services:</b> Manages all data for Audi cars and related products, exposes 50 WS interfaces for clients.",
+          "<b>AUDI Web Services:</b> Provides REST interfaces for front end forms in Audi.co.uk and Audi mobile applications."
         ]
       },
       {
@@ -327,23 +328,23 @@
         "period": "2009/12 – 2013/06 (3y 7m)",
         "title": "Lead & Senior Java Developer",
         "items": [
-          "Designed and developed various enterprise back-end applications using Java, J2EE and Spring Framework.",
-          "Used many modules of Spring Framework such as JDBC, Hibernate, Transaction, AOP, JaxWS, MVC, Cache.",
-          "Developed numerous web applications using Spring MVC, JSP, HTML, JavaScript, JQuery, CSS and AJAX.",
-          "Researched and implemented MapReduce functions to query users in a specific location using Hadoop, HDFS.",
-          "Refactored existing applications using OOP, Design Patterns and SOLID principles.",
-          "Defined required interfaces and implemented them for n-tier systems using SOAP and REST (JSON and XML).",
-          "Developed a number of web services using Spring MVC, JaxWS, Axis, Spring Security and WSS.",
-          "Implemented several scalable, highly available and multi-threaded applications which run in low latency.",
-          "Integrated projects with Continuous Integration tool (Bamboo), and configured it to be used more efficiently.",
-          "Implemented requirements using TDD with JUnit, Mockito, Easy Mock and BDD with JBehave, Spock and GEB.",
-          "Designed and developed a reusable application to keep web services backward compatible using Groovy.",
-          "Created functional tests using Groovy, led the test team to use Groovy for acceptance tests.",
-          "Used a number of protocols such as HTTP, TCP, FTP, JMX, JMS and SNMP to develop integrated applications.",
-          "Defined database models for various applications, and used ORM tools, such as Hibernate, JPA.",
-          "Researched Enterprise Service Bus solutions, to provide authorization, throttling and routing functionalities.",
-          "Performed load testing using JMeter and SOAP UI, provided solutions for performance related issues.",
-          "Other technologies used: Maven, Eclipse, Toad, Jira, Nexus, Archiva, Clover, Sonar, Crucible, Cobertura, Jira Agile, CVS, SVN, Oracle, PL-SQL, Tomcat, Jetty, Unix and Solaris."
+          "Designed and developed various enterprise back-end applications using <b>Java</b>, <b>J2EE</b> and <b>Spring Framework</b>.",
+          "Used many modules of <b>Spring Framework</b> such as JDBC, Hibernate, Transaction, AOP, JaxWS, MVC, Cache.",
+          "Developed numerous web applications using <b>Spring MVC</b>, JSP, HTML, JavaScript, JQuery, CSS and AJAX.",
+          "Researched and implemented <b>MapReduce</b> functions to query users in a specific location using Hadoop, HDFS.",
+          "Refactored existing applications using <b>OOP</b>, <b>Design Patterns</b> and <b>SOLID</b> principles.",
+          "Defined required interfaces and implemented them for n-tier systems using <b>SOAP</b> and <b>REST</b> (<b>JSON</b> and <b>XML</b>).",
+          "Developed a number of <b>web services</b> using Spring MVC, JaxWS, Axis, Spring Security and WSS.",
+          "Implemented several <b>scalable</b>, <b>highly available</b> and <b>multi-threaded</b> applications which run in <b>low latency</b>.",
+          "Integrated projects with <b>Continuous Integration</b> tool (Bamboo), and configured it to be used more efficiently.",
+          "Implemented requirements using <b>TDD</b> with JUnit, Mockito, Easy Mock and <b>BDD</b> with JBehave, Spock and GEB.",
+          "Designed and developed a reusable application to keep web services <b>backward compatible</b> using <b>Groovy</b>.",
+          "Created functional tests using <b>Groovy</b>, led the test team to use Groovy for acceptance tests.",
+          "Used a number of protocols such as <b>HTTP</b>, <b>TCP</b>, <b>FTP</b>, <b>JMX</b>, <b>JMS</b> and <b>SNMP</b> to develop integrated applications.",
+          "Defined database models for various applications, and used <b>ORM</b> tools, such as <b>Hibernate</b>, <b>JPA</b>.",
+          "Researched <b>Enterprise Service Bus</b> solutions, to provide <b>authorization</b>, <b>throttling</b> and <b>routing</b> functionalities.",
+          "Performed <b>load testing</b> using JMeter and SOAP UI, provided solutions for performance related issues.",
+          "<b>Other technologies used:</b> Maven, Eclipse, Toad, Jira, Nexus, Archiva, Clover, Sonar, Crucible, Cobertura, Jira Agile, CVS, SVN, Oracle, PL-SQL, Tomcat, Jetty, Unix and Solaris."
         ]
       },
       {
@@ -352,12 +353,12 @@
         "period": "2008/04 – 2009/11 (1y 8m)",
         "title": "Senior Java Developer",
         "items": [
-          "Led a development team to create an online banking application using Java, Spring Framework and Struts.",
-          "Developed a web application with French colleagues in a multinational environment using internationalisation.",
-          "Researched a number of rich client solutions such as ExtJS, JQuery, Backbone, and created prototypes.",
-          "Developed a rich client web application using JSP, HTML, JavaScript, JQuery, CSS, AJAX and JSTL.",
-          "Found a specific solution for each performance issue of a Single Page Application (SPA) and increased quality.",
-          "Other technologies used: Design Patterns, OOP, Spring Framework (Core, JDBC Dao Support, Cache, Transaction Management), Web Service, SOAP, HTTP, Toad, Clear Case, RSA, Selenium Web Drivers, Oracle, PL-SQL, OC4J, Web Sphere and Unix."
+          "Led a development team to create an <b>online banking</b> application using <b>Java</b>, <b>Spring Framework</b> and <b>Struts</b>.",
+          "Developed a <b>web application</b> with French colleagues in a multinational environment using internationalisation.",
+          "Researched a number of <b>rich client</b> solutions such as <b>ExtJS</b>, <b>JQuery</b>, <b>Backbone</b>, and created prototypes.",
+          "Developed a rich client web application using <b>JSP</b>, <b>HTML</b>, <b>JavaScript</b>, <b>JQuery</b>, <b>CSS</b>, <b>AJAX</b> and <b>JSTL</b>.",
+          "Found a specific solution for each performance issue of a <b>Single Page Application</b> (SPA) and increased quality.",
+          "<b>Other technologies used:</b> Design Patterns, OOP, Spring Framework (Core, JDBC Dao Support, Cache, Transaction Management), Web Service, SOAP, HTTP, Toad, Clear Case, RSA, Selenium Web Drivers, Oracle, PL-SQL, OC4J, Web Sphere and Unix."
         ]
       },
       {
@@ -366,17 +367,17 @@
         "period": "2005/04 – 2008/03 (3y)",
         "title": "Java Developer",
         "items": [
-          "Designed and developed a number of back-end applications using Java, J2EE and Spring Framework.",
-          "Developed several web applications using Spring MVC, Struts, JSP, HTML, JQuery, CSS and AJAX.",
-          "Redesigned and refactored existing applications using OOP Design Patterns and SOLID principles.",
-          "Developed many applications, which expose SOAP web services using Spring MVC, JaxWS, Axis.",
-          "Designed and developed scalable, highly available and multi-threaded applications using Java Concurrency.",
-          "Implemented applications using Test Driven Development (TDD) with JUnit and Easy Mock.",
-          "Used a number of protocols such as HTTP, TCP, FTP, SMPP and SNMP to develop integrated applications.",
-          "Performed load tests using various simulators, revised and fixed performance related issues.",
-          "Developed an application to provide Single Sign-On (SSO), authentication and authorisation functionalities.",
-          "Implemented a fully configurable client application to provide monitoring capabilities using SNMP protocol.",
-          "Other technologies used: Spring Framework, Hibernate, Eclipse, Toad, Jira, Bamboo, Cobertura, CVS, Oracle, PL-SQL, My SQL, HSQL, Tomcat, Jetty, Unix and Solaris."
+          "Designed and developed a number of back-end applications using <b>Java</b>, <b>J2EE</b> and <b>Spring Framework</b>.",
+          "Developed several web applications using <b>Spring MVC</b>, <b>Struts</b>, JSP, HTML, JQuery, CSS and AJAX.",
+          "Redesigned and refactored existing applications using <b>OOP Design Patterns</b> and <b>SOLID</b> principles.",
+          "Developed many applications, which expose <b>SOAP</b> web services using Spring MVC, JaxWS, Axis.",
+          "Designed and developed <b>scalable</b>, <b>highly available</b> and <b>multi-threaded</b> applications using <b>Java Concurrency</b>.",
+          "Implemented applications using Test Driven Development (<b>TDD</b>) with <b>JUnit</b> and <b>Easy Mock</b>.",
+          "Used a number of protocols such as <b>HTTP</b>, <b>TCP</b>, <b>FTP</b>, <b>SMPP</b> and <b>SNMP</b> to develop integrated applications.",
+          "Performed <b>load tests</b> using various simulators, revised and fixed performance related issues.",
+          "Developed an application to provide <b>Single Sign-On</b> (<b>SSO</b>), authentication and authorisation functionalities.",
+          "Implemented a fully configurable client application to provide monitoring capabilities using <b>SNMP</b> protocol.",
+          "<b>Other technologies used:</b> Spring Framework, Hibernate, Eclipse, Toad, Jira, Bamboo, Cobertura, CVS, Oracle, PL-SQL, My SQL, HSQL, Tomcat, Jetty, Unix and Solaris."
         ]
       },
       {
@@ -396,6 +397,46 @@
         "company": "Markum.NET",
         "period": "2001/03 – 2001/10 (8m)",
         "title": "Application Developer – Part Time"
+      }
+    ]
+  },
+  "education": {
+    "title": "EDUCATION",
+    "expanded": true,
+    "items": [
+      {
+        "title": "1998 – 2002",
+        "detail": "BSc in Computer Engineering - Istanbul University"
+      }
+    ]
+  },
+  "courses": {
+    "title": "COURSES",
+    "expanded": true,
+    "items": [
+      {
+        "title": "Spring Framework (Certified)",
+        "detail": "Mar 2011 (40 Hours) - Spring Framework (at Bilginc)."
+      },
+      {
+        "title": "Web Services (Certified)",
+        "detail": "May 2010 (40 Hours) - DW3111 Creating Web Services (at Sun)."
+      },
+      {
+        "title": "Oracle &PL/SQL (Certified)",
+        "detail": "Mar 2007 (50 Hours) - SQL Fundamentals, SQL and PL/SQL Fundamentals, Advanced PL/SQL, and SQL Tuning Workshop (at Oracle University)."
+      },
+      {
+        "title": "UML & Use Cases (Certified)",
+        "detail": "June 2008 (16 Hours) - Requirement Management with Use Cases (at Bildem)."
+      },
+      {
+        "title": "Project Management (Certified)",
+        "detail": "June 2007 (16 Hours) – The Art of Project Management (at Project Management Institute)."
+      },
+      {
+        "title": "Test Driven Development",
+        "detail": "Oct 2007 (16 Hours) - Agile Programming and Test Driven Development."
       }
     ]
   }

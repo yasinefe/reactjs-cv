@@ -1,10 +1,9 @@
 import React, {useEffect} from 'react'
 import makeStyles from "@material-ui/core/styles/makeStyles";
-import {Avatar, Box, Divider, Grid, Paper, TextField, Typography} from '@material-ui/core';
-import {Email, GitHub, LinkedIn, PhoneIphone} from "@material-ui/icons";
-import {grey, indigo} from "@material-ui/core/colors";
-import IconButton from "@material-ui/core/IconButton";
+import {Avatar, Box, Divider, Grid, IconButton, Paper, TextField, Typography} from '@material-ui/core';
+import {Email, GitHub, LinkedIn, Opacity, PhoneIphone} from "@material-ui/icons";
 import Zoom from "@material-ui/core/Zoom";
+import {indigo, deepOrange, purple, teal} from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
     avatar: {
@@ -12,33 +11,33 @@ const useStyles = makeStyles((theme) => ({
         height: theme.spacing(14),
     },
     icon: {
-        color: indigo["100"],
+        color: theme.palette.getContrastText(theme.palette.text.primary),
     },
     header: {
         padding: theme.spacing(2),
         borderRadius: theme.spacing(1),
-        backgroundColor: indigo["500"],
-        color: indigo["100"],
+        backgroundColor: theme.palette.primary.main,
     },
     name: {
-        color: indigo["50"],
+        color: theme.palette.getContrastText(theme.palette.text.primary),
     },
     avatarBox: {
         padding: theme.spacing(1),
     },
     search: {
-        backgroundColor: grey["50"],
+        backgroundColor: theme.palette.getContrastText(theme.palette.text.primary),
         borderRadius: theme.spacing(1),
     },
     divider: {
         height: 2,
-        backgroundColor: grey["50"],
-        borderColor: grey["50"],
+        backgroundColor: theme.palette.getContrastText(theme.palette.text.primary),
     },
     box: {
-        color: indigo["50"],
+        color: theme.palette.getContrastText(theme.palette.text.primary),
         paddingLeft: theme.spacing(2),
-        fontSize: "1.5rem",
+    },
+    printIcon: {
+        textAlign: "end",
     },
 }));
 
@@ -61,7 +60,7 @@ export default function Header(props) {
     };
 
     useEffect(() => {
-        setLink(header[value]);
+            setLink(header[value]);
         }, [value]
     );
 
@@ -84,7 +83,7 @@ export default function Header(props) {
                     </Grid>
                 </Grid>
                 <Grid item xs={6}>
-                    <Grid container spacing={1}>
+                    <Grid container>
                         <Grid item xs={6}>
                             <IconButton onClick={() => handleExpandClick("email")}>
                                 <Box>
@@ -123,6 +122,36 @@ export default function Header(props) {
                             <Zoom in={expanded}>
                                 <Box className={classes.box}>{link}</Box>
                             </Zoom>
+                        </Grid>
+                        <Grid item xs={6}>&nbsp;</Grid>
+                        <Grid item xs={6} className={classes.printIcon}>
+                            <Box style={{backgroundColor: "white", borderRadius: 8}}>
+                                <Box display="inline">
+                                    <IconButton onClick={() => props.changeTheme(indigo)}>
+                                        <Opacity style={{color: indigo["500"]}} fontSize={"small"}/>
+                                    </IconButton>
+                                </Box>
+                                <Box display="inline">
+                                    <IconButton onClick={() => props.changeTheme(purple)}>
+                                        <Opacity style={{color: purple["500"]}} fontSize={"small"}/>
+                                    </IconButton>
+                                </Box>
+                                <Box display="inline">
+                                    <IconButton onClick={() => props.changeTheme(teal)}>
+                                        <Opacity style={{color: teal["500"]}} fontSize={"small"}/>
+                                    </IconButton>
+                                </Box>
+                                <Box display="inline">
+                                    <IconButton onClick={() => props.changeTheme(deepOrange)}>
+                                        <Opacity style={{color: deepOrange["500"]}} fontSize={"small"}/>
+                                    </IconButton>
+                                </Box>
+                                <Box display="inline">
+                                    <IconButton onClick={() => props.changeTheme("black")}>
+                                        <Opacity style={{color: "#000"}} fontSize={"small"}/>
+                                    </IconButton>
+                                </Box>
+                            </Box>
                         </Grid>
                     </Grid>
                 </Grid>

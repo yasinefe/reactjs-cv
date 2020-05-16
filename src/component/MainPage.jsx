@@ -1,26 +1,30 @@
 import React from 'react'
 import {Grid} from '@material-ui/core';
+import makeStyles from "@material-ui/core/styles/makeStyles";
+
 import CvDataService from "../service/CvDataService";
+
 import Header from "./Header";
 import Profile from "./Profile";
 import TechnicalSkills from "./TechnicalSkills";
-import makeStyles from "@material-ui/core/styles/makeStyles";
 import CareerHistory from "./CareerHistory";
 import Section from "./Section";
+import Education from "./Education";
+import Courses from "./Courses";
 
 const useStyles = makeStyles((theme) => ({
     root: {
         '& b': {
-            color: theme.palette.secondary.main,
+            color: theme.palette.text.secondary,
         },
         '& mark': {
-            color: '#ffffff',
-            backgroundColor: '#ef6c00',
+            color: theme.palette.mark.color,
+            backgroundColor: theme.palette.mark.backgroundColor,
         },
     },
 }));
 
-export default function MainPage() {
+export default function MainPage(props) {
     const classes = useStyles()
     const [cv, setCv] = React.useState(CvDataService.get());
 
@@ -31,7 +35,7 @@ export default function MainPage() {
     return (
         <Grid container spacing={2} className={classes.root}>
             <Grid item xs={12}>
-                <Header data={cv.header} onChange={filter}/>
+                <Header data={cv.header} onChange={filter} changeTheme={props.changeTheme}/>
             </Grid>
             <Grid item xs={12}>
                 <Section title={cv.profile.title} expanded={cv.profile.expanded}>
@@ -46,6 +50,16 @@ export default function MainPage() {
             <Grid item xs={12}>
                 <Section title={cv.careerHistory.title} expanded={cv.careerHistory.expanded}>
                     <CareerHistory data={cv.careerHistory}/>
+                </Section>
+            </Grid>
+            <Grid item xs={12}>
+                <Section title={cv.education.title} expanded={cv.education.expanded}>
+                    <Education data={cv.education}/>
+                </Section>
+            </Grid>
+            <Grid item xs={12}>
+                <Section title={cv.courses.title} expanded={cv.courses.expanded}>
+                    <Courses data={cv.courses}/>
                 </Section>
             </Grid>
         </Grid>

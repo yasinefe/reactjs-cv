@@ -2,7 +2,6 @@ import React, {useEffect} from 'react'
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import {Box, Collapse, Divider, Grid, IconButton} from '@material-ui/core';
 import {ExpandMore} from "@material-ui/icons";
-import {indigo} from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -22,23 +21,23 @@ const useStyles = makeStyles((theme) => ({
     },
     icon: {
         textAlign: "end",
-        color: indigo["500"],
+        color: theme.palette.primary.main,
     },
     divider: {
         height: 1,
     },
     company: {
         fontWeight: "bold",
-        color: indigo["900"],
+        color: theme.palette.primary.dark,
         fontSize: "1.5em",
     },
     companyOther: {
         fontWeight: "bold",
-        color: indigo["900"],
+        color: theme.palette.primary.dark,
         fontSize: "1.1em",
     },
     period: {
-        color: indigo["300"],
+        color: theme.palette.primary.light,
     },
     title: {
         textAlign: "end",
@@ -66,7 +65,7 @@ export default function Career(props) {
             <Grid item xs={4} className={career.items ? classes.company : classes.companyOther}>{career.company}</Grid>
             <Grid item xs={3} className={classes.period}>{career.period}</Grid>
             <Grid item xs={5} className={classes.title}>
-                {career.title}&nbsp;
+                <Box padding={1} display="inline">{career.title}</Box>
                 <IconButton size={"small"} className={expanded ? classes.expandOpen : classes.expand}
                             onClick={handleExpandClick}>
                     {career.items && <ExpandMore className={classes.icon}/>}
@@ -79,12 +78,12 @@ export default function Career(props) {
             }
             <Collapse in={expanded}>
                 <Grid item xs={12}>
-                    {career.items && career.items.map(item => <Box dangerouslySetInnerHTML={{__html: "• " + item}}/>)}
+                    {career.items && career.items.map(item => <li dangerouslySetInnerHTML={{__html: item}}/>)}
                 </Grid>
                 {career.projectItems &&
                 <Grid item xs={12}>
                     <h4>{career.projectTitle}</h4>
-                    {career.projectItems.map(item => <Box dangerouslySetInnerHTML={{__html: "• " + item}}/>)}
+                    {career.projectItems.map(item => <li dangerouslySetInnerHTML={{__html: item}}/>)}
                 </Grid>
                 }
             </Collapse>

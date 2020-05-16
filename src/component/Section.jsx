@@ -2,7 +2,6 @@ import React, {useEffect} from 'react'
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import {Card, CardContent, CardHeader, Collapse, Divider, IconButton} from '@material-ui/core';
 import {ExpandMore} from "@material-ui/icons";
-import {indigo} from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
     card: {
@@ -22,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
         }),
     },
     icon: {
-        color: indigo["500"],
+        color: theme.palette.primary.main,
     },
     divider: {
         height: 2

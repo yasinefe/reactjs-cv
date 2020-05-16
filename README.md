@@ -1,10 +1,10 @@
 ## reactjs-cv
 
-- This is an example I have created to learn React JS
+- This is an example I have created to learn React JS with Material UI
 
 ### Running On
 
-http://8a3a43d4-9c74-4767-8501-1f167bad5175.pub.cloud.scaleway.com:3000/
+http://163.172.165.5:3000/
 
 ### To Run
 NPM required to run.
