@@ -36,9 +36,11 @@ const useStyles = makeStyles((theme) => ({
         color: theme.palette.getContrastText(theme.palette.text.primary),
         paddingLeft: theme.spacing(2),
     },
-    printIcon: {
-        textAlign: "end",
-    },
+    colorBox: {
+        backgroundColor: theme.palette.getContrastText(theme.palette.text.primary),
+        borderRadius: 8,
+        textAlign: "center",
+    }
 }));
 
 export default function Header(props) {
@@ -124,8 +126,8 @@ export default function Header(props) {
                             </Zoom>
                         </Grid>
                         <Grid item xs={6}>&nbsp;</Grid>
-                        <Grid item xs={6} className={classes.printIcon}>
-                            <Box style={{backgroundColor: "white", borderRadius: 8}}>
+                        <Grid item xs={6}>
+                            <Box className={classes.colorBox}>
                                 <Box display="inline">
                                     <IconButton onClick={() => props.changeTheme(indigo)}>
                                         <Opacity style={{color: indigo["500"]}} fontSize={"small"}/>

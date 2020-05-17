@@ -1,11 +1,15 @@
 import React, {useEffect} from 'react'
 import makeStyles from "@material-ui/core/styles/makeStyles";
-import {Box, Collapse, Divider, Grid, IconButton} from '@material-ui/core';
+import {Avatar, Box, Collapse, Divider, Grid, IconButton} from '@material-ui/core';
 import {ExpandMore} from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
     root: {
         alignItems: "center",
+    },
+    avatar: {
+        width: theme.spacing(4),
+        height: theme.spacing(4),
     },
     expand: {
         transform: 'rotate(0deg)',
@@ -45,6 +49,10 @@ const useStyles = makeStyles((theme) => ({
     iconContainer: {
         textAlign: "end",
     },
+    item: {
+        display: "list-item",
+        marginLeft: 24,
+    }
 }));
 
 export default function Career(props) {
@@ -62,7 +70,26 @@ export default function Career(props) {
 
     return (
         <Grid container spacing={2} className={classes.root}>
-            <Grid item xs={4} className={career.items ? classes.company : classes.companyOther}>{career.company}</Grid>
+            <Grid item xs={4} className={career.items ? classes.company : classes.companyOther}>
+                <Grid container>
+                    {
+                        career.items && career.logo ? (
+                            <>
+                                <Grid item xs={1}>
+                                    <Avatar variant="square" src={career.logo} className={classes.avatar}/>
+                                </Grid>
+                                <Grid item xs={11} style={{paddingLeft: 12}}>
+                                    {career.company}
+                                </Grid>
+                            </>
+                        ) : (
+                            <>
+                                {career.company}
+                            </>
+                        )
+                    }
+                </Grid>
+            </Grid>
             <Grid item xs={3} className={classes.period}>{career.period}</Grid>
             <Grid item xs={5} className={classes.title}>
                 <Box padding={1} display="inline">{career.title}</Box>
@@ -78,12 +105,14 @@ export default function Career(props) {
             }
             <Collapse in={expanded}>
                 <Grid item xs={12}>
-                    {career.items && career.items.map(item => <li dangerouslySetInnerHTML={{__html: item}}/>)}
+                    {career.items && career.items.map(item => <Box className={classes.item}
+                                                                   dangerouslySetInnerHTML={{__html: item}}/>)}
                 </Grid>
                 {career.projectItems &&
                 <Grid item xs={12}>
-                    <h4>{career.projectTitle}</h4>
-                    {career.projectItems.map(item => <li dangerouslySetInnerHTML={{__html: item}}/>)}
+                    <h4 style={{margin: 12}}>{career.projectTitle}</h4>
+                    {career.projectItems.map(item => <Box className={classes.item}
+                                                          dangerouslySetInnerHTML={{__html: item}}/>)}
                 </Grid>
                 }
             </Collapse>

@@ -38,6 +38,11 @@ const printable = createMuiTheme({
             backgroundColor: '#ef6c00',
         }
     },
+    breakpoints: {
+        values: {
+            md: 1000,
+        }
+    },
 });
 
 function createTheme(color) {
@@ -66,6 +71,11 @@ function createTheme(color) {
             mark: {
                 color: '#ffffff',
                 backgroundColor: '#ef6c00',
+            }
+        },
+        breakpoints: {
+            values: {
+                md: 1000,
             }
         },
     });
