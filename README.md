@@ -6,7 +6,7 @@ Using this static JSON Data : [cv.json](src/service/data/cv.json)
 
 ### Running On
 
-http://163.172.165.5:3000/
+http://yasinefe.seebell.co.uk/
 
 ### To Run
 NPM required to run.
