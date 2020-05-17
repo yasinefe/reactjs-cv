@@ -1,11 +1,11 @@
 {
-  "main.js": "/cv/static/js/main.6333ef8f.chunk.js",
-  "main.js.map": "/cv/static/js/main.6333ef8f.chunk.js.map",
-  "runtime~main.js": "/cv/static/js/runtime~main.6f651ed7.js",
-  "runtime~main.js.map": "/cv/static/js/runtime~main.6f651ed7.js.map",
-  "static/js/2.82efb247.chunk.js": "/cv/static/js/2.82efb247.chunk.js",
-  "static/js/2.82efb247.chunk.js.map": "/cv/static/js/2.82efb247.chunk.js.map",
-  "index.html": "/cv/index.html",
-  "precache-manifest.6338545f6bb1cf82e0338b28e571676a.js": "/cv/precache-manifest.6338545f6bb1cf82e0338b28e571676a.js",
-  "service-worker.js": "/cv/service-worker.js"
+  "main.js": "/reactjs-cv/static/js/main.0264851a.chunk.js",
+  "main.js.map": "/reactjs-cv/static/js/main.0264851a.chunk.js.map",
+  "runtime~main.js": "/reactjs-cv/static/js/runtime~main.bc0cffd7.js",
+  "runtime~main.js.map": "/reactjs-cv/static/js/runtime~main.bc0cffd7.js.map",
+  "static/js/2.82efb247.chunk.js": "/reactjs-cv/static/js/2.82efb247.chunk.js",
+  "static/js/2.82efb247.chunk.js.map": "/reactjs-cv/static/js/2.82efb247.chunk.js.map",
+  "index.html": "/reactjs-cv/index.html",
+  "precache-manifest.2369e2364bdec8063a0b5ca2cc3acc73.js": "/reactjs-cv/precache-manifest.2369e2364bdec8063a0b5ca2cc3acc73.js",
+  "service-worker.js": "/reactjs-cv/service-worker.js"
 }
