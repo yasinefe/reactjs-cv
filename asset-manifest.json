@@ -1,11 +1,19 @@
 {
-  "main.js": "/reactjs-cv/static/js/main.0264851a.chunk.js",
-  "main.js.map": "/reactjs-cv/static/js/main.0264851a.chunk.js.map",
-  "runtime~main.js": "/reactjs-cv/static/js/runtime~main.bc0cffd7.js",
-  "runtime~main.js.map": "/reactjs-cv/static/js/runtime~main.bc0cffd7.js.map",
-  "static/js/2.82efb247.chunk.js": "/reactjs-cv/static/js/2.82efb247.chunk.js",
-  "static/js/2.82efb247.chunk.js.map": "/reactjs-cv/static/js/2.82efb247.chunk.js.map",
-  "index.html": "/reactjs-cv/index.html",
-  "precache-manifest.2369e2364bdec8063a0b5ca2cc3acc73.js": "/reactjs-cv/precache-manifest.2369e2364bdec8063a0b5ca2cc3acc73.js",
-  "service-worker.js": "/reactjs-cv/service-worker.js"
+  "files": {
+    "main.js": "/reactjs-cv/static/js/main.24b0a4a7.chunk.js",
+    "main.js.map": "/reactjs-cv/static/js/main.24b0a4a7.chunk.js.map",
+    "runtime-main.js": "/reactjs-cv/static/js/runtime-main.7d09b72e.js",
+    "runtime-main.js.map": "/reactjs-cv/static/js/runtime-main.7d09b72e.js.map",
+    "static/js/2.46d475c9.chunk.js": "/reactjs-cv/static/js/2.46d475c9.chunk.js",
+    "static/js/2.46d475c9.chunk.js.map": "/reactjs-cv/static/js/2.46d475c9.chunk.js.map",
+    "index.html": "/reactjs-cv/index.html",
+    "precache-manifest.239179763d5a9caef1a496fbbbcde49e.js": "/reactjs-cv/precache-manifest.239179763d5a9caef1a496fbbbcde49e.js",
+    "service-worker.js": "/reactjs-cv/service-worker.js",
+    "static/js/2.46d475c9.chunk.js.LICENSE.txt": "/reactjs-cv/static/js/2.46d475c9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d09b72e.js",
+    "static/js/2.46d475c9.chunk.js",
+    "static/js/main.24b0a4a7.chunk.js"
+  ]
 }
