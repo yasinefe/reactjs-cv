@@ -73,7 +73,7 @@ export default function Header(props) {
                     <Grid container spacing={1}>
                         <Grid item xs={4}>
                             <Box className={classes.avatarBox}>
-                                <Avatar alt={header.name} src="/static/images/yasin-efe.jpg"
+                                <Avatar alt={header.name} src="/reactjs-cv/static/images/yasin-efe.jpg"
                                         className={classes.avatar}/>
                             </Box>
                         </Grid>

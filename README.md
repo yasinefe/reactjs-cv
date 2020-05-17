@@ -4,9 +4,9 @@
 
 Using this static JSON Data : [cv.json](src/service/data/cv.json) 
 
-### Running On
+### Published On GitPages
 
-http://yasinefe.seebell.co.uk/
+https://yasinefe.github.io/reactjs-cv/
 
 ### To Run
 NPM required to run.

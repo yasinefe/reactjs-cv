@@ -203,7 +203,7 @@
         "company": "UBS",
         "period": "2019/11 – Present",
         "title": "Lead Java Developer – Contractor",
-        "logo": "/static/images/ubs.png",
+        "logo": "/reactjs-cv/static/images/ubs.png",
         "items": [
           "Designed and developed microservices using <b>Java 8</b>, <b>Spring Boot</b> exposing <b>REST</b> APIs for external & internal clients.",
           "Integrated microservices using <b>Kafka</b> and <b>Kafka Streams</b>, with <b>Avro Schema</b> and <b>Schema Registry</b>.",
@@ -222,7 +222,7 @@
         "company": "Mastercard",
         "period": "2018/07 – 2019/11 (1y 5m)",
         "title": "Lead Java Developer – Contractor",
-        "logo": "/static/images/mastercard.png",
+        "logo": "/reactjs-cv/static/images/mastercard.png",
         "items": [
           "Developed microservices using <b>Java 11</b>, <b>Kotlin</b>, <b>Spring Boot</b>, <b>Akka</b> backed with <b>Casandra</b>, <b>VoltDB</b> and <b>Oracle DB</b>.",
           "Integrated microservices using <b>Kafka</b>, <b>Akka</b> (<b>Streams</b>, <b>Http</b>, <b>Persistence</b>, <b>Cluster</b> and <b>Distributed Data</b>), <b>REST</b>.",
@@ -244,7 +244,7 @@
         "company": "HSBC",
         "period": "2017/04 – 2018/06 (1y 3m)",
         "title": "Senior Java Developer – Contractor",
-        "logo": "/static/images/hsbc.png",
+        "logo": "/reactjs-cv/static/images/hsbc.png",
         "items": [
           "Developed and integrated operable microservices using <b>Java 8</b>, <b>Spring Boot</b> backed with <b>MongoDB</b>.",
           "Integrated microservices with <b>Spring Cloud Config</b> to centralise and make config changes without interruption.",
@@ -265,7 +265,7 @@
         "company": "Marks & Spencer",
         "period": "2016/07 – 2017/03 (9m)",
         "title": "Lead & Senior Java Developer - Contractor",
-        "logo": "/static/images/mns.jpeg",
+        "logo": "/reactjs-cv/static/images/mns.jpeg",
         "items": [
           "<b>Mentored</b> and <b>guided</b> team members to improve their technical skills focusing on <b>TDD</b>, <b>Agile</b> and <b>CI</b> / <b>CD</b>.",
           "Developed microservices which expose <b>REST</b> interfaces using <b>Java 8</b> and <b>Spring Boot</b>.",
@@ -288,7 +288,7 @@
         "company": "Sky",
         "period": "2014/10 – 2016/06 (1y 9m)",
         "title": "Senior Java Developer - Contractor",
-        "logo": "/static/images/sky.png",
+        "logo": "/reactjs-cv/static/images/sky.png",
         "items": [
           "Developed microservices which expose <b>HAL</b> and <b>HATEOAS</b> based <b>REST</b> interfaces using <b>Java</b> and <b>Python</b>.",
           "Used <b>Spring Boot</b>, <b>Groovy</b> to provide APIs designed as <b>microservices</b> for Single Sign On project (SkyID).",
@@ -311,7 +311,7 @@
         "company": "Salmon",
         "period": "2013/08 – 2014/09 (1y 2m)",
         "title": "Senior Java Developer - Contractor",
-        "logo": "/static/images/salmon.png",
+        "logo": "/reactjs-cv/static/images/salmon.png",
         "items": [
           "Developed several back-end applications using <b>J2EE</b>, <b>Design Patterns</b>, <b>OOP</b> and <b>Spring Framework</b>.",
           "Established an effective solution to change existing <b>SOAP</b> web services to <b>REST (JSON)</b> using <b>Spring MVC</b>.",
@@ -333,7 +333,7 @@
         "company": "Vodafone",
         "period": "2009/12 – 2013/06 (3y 7m)",
         "title": "Lead & Senior Java Developer",
-        "logo": "/static/images/vodafone.png",
+        "logo": "/reactjs-cv/static/images/vodafone.png",
         "items": [
           "Designed and developed various enterprise back-end applications using <b>Java</b>, <b>J2EE</b> and <b>Spring Framework</b>.",
           "Used many modules of <b>Spring Framework</b> such as JDBC, Hibernate, Transaction, AOP, JaxWS, MVC, Cache.",
@@ -359,7 +359,7 @@
         "company": "BNP Paribas",
         "period": "2008/04 – 2009/11 (1y 8m)",
         "title": "Senior Java Developer",
-        "logo": "/static/images/bnp.png",
+        "logo": "/reactjs-cv/static/images/bnp.png",
         "items": [
           "Led a development team to create an <b>online banking</b> application using <b>Java</b>, <b>Spring Framework</b> and <b>Struts</b>.",
           "Developed a <b>web application</b> with French colleagues in a multinational environment using internationalisation.",
@@ -374,7 +374,7 @@
         "company": "Vodafone",
         "period": "2005/04 – 2008/03 (3y)",
         "title": "Java Developer",
-        "logo": "/static/images/vodafone.png",
+        "logo": "/reactjs-cv/static/images/vodafone.png",
         "items": [
           "Designed and developed a number of back-end applications using <b>Java</b>, <b>J2EE</b> and <b>Spring Framework</b>.",
           "Developed several web applications using <b>Spring MVC</b>, <b>Struts</b>, JSP, HTML, JQuery, CSS and AJAX.",
