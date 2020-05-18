@@ -29,6 +29,7 @@ const useStyles = makeStyles((theme) => ({
     },
     divider: {
         height: 1,
+        marginBottom: theme.spacing(1),
     },
     company: {
         fontWeight: "bold",
@@ -51,7 +52,10 @@ const useStyles = makeStyles((theme) => ({
     },
     item: {
         display: "list-item",
-        marginLeft: 24,
+        marginLeft: theme.spacing(3),
+    },
+    content: {
+        paddingBottom: theme.spacing(2),
     }
 }));
 
@@ -69,7 +73,7 @@ export default function Career(props) {
     }, [props]);
 
     return (
-        <Grid container spacing={2} className={classes.root}>
+        <Grid container spacing={1} className={classes.root}>
             <Grid item xs={4} className={career.items ? classes.company : classes.companyOther}>
                 <Grid container>
                     {
@@ -104,17 +108,19 @@ export default function Career(props) {
             </Grid>
             }
             <Collapse in={expanded}>
-                <Grid item xs={12}>
-                    {career.items && career.items.map(item => <Box className={classes.item}
-                                                                   dangerouslySetInnerHTML={{__html: item}}/>)}
-                </Grid>
-                {career.projectItems &&
-                <Grid item xs={12}>
-                    <h4 style={{margin: 12}}>{career.projectTitle}</h4>
-                    {career.projectItems.map(item => <Box className={classes.item}
-                                                          dangerouslySetInnerHTML={{__html: item}}/>)}
-                </Grid>
-                }
+                <Box className={classes.content}>
+                    <Grid item xs={12}>
+                        {career.items && career.items.map(item => <Box className={classes.item}
+                                                                       dangerouslySetInnerHTML={{__html: item}}/>)}
+                    </Grid>
+                    {career.projectItems &&
+                    <Grid item xs={12}>
+                        <h4 style={{margin: 12}}>{career.projectTitle}</h4>
+                        {career.projectItems.map(item => <Box className={classes.item}
+                                                              dangerouslySetInnerHTML={{__html: item}}/>)}
+                    </Grid>
+                    }
+                </Box>
             </Collapse>
         </Grid>
     );

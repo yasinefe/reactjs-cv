@@ -63,7 +63,7 @@ export default function Header(props) {
 
     useEffect(() => {
             setLink(header[value]);
-        }, [value]
+        }, [value, header]
     );
 
     return (

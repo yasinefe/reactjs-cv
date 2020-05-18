@@ -5,7 +5,7 @@ export default function Courses(props) {
     const courses = props.data
 
     return (
-        <Grid container spacing={2}>
+        <Grid container spacing={1}>
             {
                 courses.items.map(item =>
                     <>

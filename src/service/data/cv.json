@@ -261,7 +261,7 @@
         ]
       },
       {
-        "expanded": true,
+        "expanded": false,
         "company": "Marks & Spencer",
         "period": "2016/07 – 2017/03 (9m)",
         "title": "Lead & Senior Java Developer - Contractor",
@@ -284,7 +284,7 @@
         ]
       },
       {
-        "expanded": true,
+        "expanded": false,
         "company": "Sky",
         "period": "2014/10 – 2016/06 (1y 9m)",
         "title": "Senior Java Developer - Contractor",
@@ -297,7 +297,7 @@
           "Experienced using <b>Gradle</b> and <b>Jenkins</b> for continuous integration and fully automated deployment process.",
           "Implemented database requirements using <b>Cassandra DB</b> and <b>Memcached</b> for the applications.",
           "Used <b>Nimbus</b> cloud system (<b>Cloud Foundry</b>) to deploy and run the applications on different environments.",
-          "Used GIT with <b>branch</b> per feature and <b>workflow</b> approaches to manage sources.",
+          "Used GIT with <b>branch per feature</b> and <b>workflow</b> approaches to manage sources.",
           "<b>Other technologies used:</b> IntelliJ, Nexus, Tomcat, Unix, JUnit, Mockito."
         ],
         "projectTitle": "Projects",
@@ -307,7 +307,7 @@
         ]
       },
       {
-        "expanded": true,
+        "expanded": false,
         "company": "Salmon",
         "period": "2013/08 – 2014/09 (1y 2m)",
         "title": "Senior Java Developer - Contractor",

@@ -61,7 +61,7 @@ function createTheme(color) {
             primary: color,
             secondary: pink,
             text: {
-                primary: color["500"],
+                primary: color["900"],
                 secondary: pink["500"],
             },
             divider: color["500"],

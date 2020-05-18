@@ -26,6 +26,9 @@ const useStyles = makeStyles((theme) => ({
     divider: {
         height: 2
     },
+    header: {
+        padding: theme.spacing(1),
+    },
 }));
 
 export default function Section(props) {
@@ -44,6 +47,7 @@ export default function Section(props) {
     return (
         <Card className={classes.card}>
             <CardHeader
+                className={classes.header}
                 title={title}
                 action={
                     <IconButton className={expanded ? classes.expandOpen : classes.expand} onClick={handleExpandClick}>
@@ -53,7 +57,7 @@ export default function Section(props) {
             />
             <Collapse in={expanded}>
                 <Divider className={classes.divider}/>
-                <CardContent>
+                <CardContent style={{padding: 16}}>
                     {props.children}
                 </CardContent>
             </Collapse>
