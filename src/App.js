@@ -40,7 +40,7 @@ const printable = createMuiTheme({
     },
     breakpoints: {
         values: {
-            md: 1000,
+            md: 960,
         }
     },
 });
@@ -75,7 +75,7 @@ function createTheme(color) {
         },
         breakpoints: {
             values: {
-                md: 1000,
+                md: 960,
             }
         },
     });
