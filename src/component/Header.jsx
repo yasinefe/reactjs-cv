@@ -48,8 +48,8 @@ export default function Header(props) {
     const header = props.data
 
     const [expanded, setExpanded] = React.useState(true);
-    const [value, setValue] = React.useState("email");
-    const [link, setLink] = React.useState(header["email"]);
+    const [value, setValue] = React.useState("linkedin");
+    const [link, setLink] = React.useState(header["linkedin"]);
 
     const handleExpandClick = (button) => {
         if (value === button) {
@@ -87,20 +87,6 @@ export default function Header(props) {
                 <Grid item xs={6}>
                     <Grid container>
                         <Grid item xs={6}>
-                            <IconButton onClick={() => handleExpandClick("email")}>
-                                <Box>
-                                    <Email className={classes.icon} fontSize={"default"}/>
-                                    <Zoom in={value === "email" && expanded}><Divider
-                                        className={classes.divider}/></Zoom>
-                                </Box>
-                            </IconButton>
-                            <IconButton onClick={() => handleExpandClick("mobile")}>
-                                <Box>
-                                    <PhoneIphone className={classes.icon} fontSize={"default"}/>
-                                    <Zoom in={value === "mobile" && expanded}><Divider
-                                        className={classes.divider}/></Zoom>
-                                </Box>
-                            </IconButton>
                             <IconButton onClick={() => handleExpandClick("linkedin")}>
                                 <Box>
                                     <LinkedIn className={classes.icon} fontSize={"default"}/>
@@ -112,6 +98,20 @@ export default function Header(props) {
                                 <Box>
                                     <GitHub className={classes.icon} fontSize={"default"}/>
                                     <Zoom in={value === "github" && expanded}><Divider
+                                        className={classes.divider}/></Zoom>
+                                </Box>
+                            </IconButton>
+                            <IconButton onClick={() => handleExpandClick("email")}>
+                                <Box>
+                                    <Email className={classes.icon} fontSize={"default"}/>
+                                    <Zoom in={value === "email" && expanded}><Divider
+                                        className={classes.divider}/></Zoom>
+                                </Box>
+                            </IconButton>
+                            <IconButton onClick={() => handleExpandClick("mobile")}>
+                                <Box>
+                                    <PhoneIphone className={classes.icon} fontSize={"default"}/>
+                                    <Zoom in={value === "mobile" && expanded}><Divider
                                         className={classes.divider}/></Zoom>
                                 </Box>
                             </IconButton>
