@@ -34,12 +34,16 @@ const useStyles = makeStyles((theme) => ({
     company: {
         fontWeight: "bold",
         color: theme.palette.primary.dark,
-        fontSize: "1.5em",
+        fontSize: "1.4em",
     },
     companyOther: {
         fontWeight: "bold",
         color: theme.palette.primary.dark,
         fontSize: "1.1em",
+    },
+    companyName: {
+        paddingLeft: 16,
+        alignSelf: "center",
     },
     period: {
         color: theme.palette.primary.light,
@@ -82,7 +86,7 @@ export default function Career(props) {
                                 <Grid item xs={1}>
                                     <Avatar variant="square" src={career.logo} className={classes.avatar}/>
                                 </Grid>
-                                <Grid item xs={11} style={{paddingLeft: 12}}>
+                                <Grid item xs={11} className={classes.companyName}>
                                     {career.company}
                                 </Grid>
                             </>
