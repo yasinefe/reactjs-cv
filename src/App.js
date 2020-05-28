@@ -14,8 +14,8 @@ const printable = createMuiTheme({
         h5: {
             fontWeight: "bold",
         },
-        fontSize: 10,
-        htmlFontSize: 12,
+        fontSize: 9,
+        htmlFontSize: 11,
     },
     palette: {
         primary: {
@@ -54,8 +54,8 @@ function createTheme(color) {
             h5: {
                 fontWeight: "bold",
             },
-            fontSize: 10,
-            htmlFontSize: 12,
+            fontSize: 9,
+            htmlFontSize: 11,
         },
         palette: {
             primary: color,
