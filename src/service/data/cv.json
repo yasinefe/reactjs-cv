@@ -12,7 +12,7 @@
     "title": "PROFILE",
     "expanded": true,
     "items": [
-      "Extensive experience <b>over 15 years</b> in all phases of <b>software design</b> and <b>development</b>. Well versed with several <b>programming languages</b> and countless <b>frameworks</b> and tools for <b>back-end</b>, <b>front-end</b> and <b>mobile</b> development. Highly skilled in design and implementation of <b>scalable</b>, <b>high available</b>, <b>fault tolerant</b>, <b>containerised</b> applications and services on different <b>cloud</b> platforms. Several year experience of <b>technical leading</b>, <b>guiding</b> and <b>mentoring</b> team members for many projects. Strong understanding of applying <b>Agile</b> and <b>Extreme Programming</b>, Test Driven Development (<b>TDD</b>), Behaviour Driven Development (<b>BDD</b>), Continuous Integration (<b>CI</b>), Continuous Delivery (<b>CD</b>) and Infrastructure as Code (<b>IaC</b>). Comprehensive experience and business knowledge on <b>telecom</b>, <b>finance</b>, <b>media</b>, <b>e-commerce</b> and <b>payment</b> sectors.",
+      "Extensive experience <b>over 20 years</b> in all phases of <b>software design</b> and <b>development</b>. Well versed with several <b>programming languages</b> and countless <b>frameworks</b> and tools for <b>back-end</b>, <b>front-end</b> and <b>mobile</b> development. Highly skilled in design and implementation of <b>scalable</b>, <b>high available</b>, <b>fault tolerant</b>, <b>containerised</b> applications and services on different <b>cloud</b> platforms. Several year experience of <b>technical leading</b>, <b>guiding</b> and <b>mentoring</b> team members for many projects. Strong understanding of applying <b>Agile</b> and <b>Extreme Programming</b>, Test Driven Development (<b>TDD</b>), Behaviour Driven Development (<b>BDD</b>), Continuous Integration (<b>CI</b>), Continuous Delivery (<b>CD</b>) and Infrastructure as Code (<b>IaC</b>). Comprehensive experience and business knowledge on <b>telecom</b>, <b>finance</b>, <b>media</b>, <b>e-commerce</b> and <b>payment</b> sectors.",
       "Passionate about using <b>new technologies</b> and applying them to real world problems. Interested in <b>Computer Mathematics</b>, <b>Algorithms</b>, <b>Artificial Intelligence</b>, <b>Machine Learning</b> and <b>Deep Learning</b>."
     ]
   },
@@ -200,6 +200,24 @@
     "items": [
       {
         "expanded": true,
+        "company": "NewDay",
+        "period": "2022/01 – 2023/08",
+        "title": "Senior Java Developer – Contractor",
+        "logo": "/reactjs-cv/static/images/newday.png",
+        "items": [
+          "Designed and developed microservices using <b>Java 11, Spring Boot</b> exposing <b>REST</b> APIs for internal clients.",
+          "Used <b>Docker</b> and <b>Kubernetes</b> to containerize the microservices, created <b>CI & CD</b> pipeline using <b>GitHub Actions</b>.",
+          "Created a user interface to demo backend services using <b>React JS</b> and <b>Material UI</b>.",
+          "Defined and built infrastructure on <b>Azure</b> with <b>AKS</b> using <b>Infrastructure as Code</b> approach with <b>Terraform</b> and <b>Helm</b>.",
+          "<b>Other technologies used:</b> Lombok, Jira, IntelliJ, XCode, Gradle, JPos."
+        ],
+        "projectTitle": "Projects",
+        "projectItems": [
+          "<b>PIMS (Payment Instruction Management System) - Microservices:</b> Provides payment instruction and clearing functionality for different type of card products by issuer."
+        ]
+      },
+      {
+        "expanded": true,
         "company": "UBS",
         "period": "2019/11 – Present",
         "title": "Lead Java Developer – Contractor",
@@ -240,7 +258,7 @@
         ]
       },
       {
-        "expanded": true,
+        "expanded": false,
         "company": "HSBC",
         "period": "2017/04 – 2018/06 (1y 3m)",
         "title": "Senior Java Developer – Contractor",
