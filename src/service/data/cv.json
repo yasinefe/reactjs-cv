@@ -39,7 +39,7 @@
         "name": "Frameworks",
         "expanded": true,
         "items": [
-          "Spring Framework (Core, MVC, WebFlux, JDBC, AOP, JaxWS, REST, Cache, Transaction Management, Security, JPA, JMS and Hibernate Support)",
+          "Spring Framework (Core, MVC, WebFlux, JDBC, AOP, JaxWS, REST, Cache, Transaction Management, Security, JPA, JMS and Hibernate Support).",
           "Spring Boot",
           "Akka (Actors, Streams, FSM, Persistence, Cluster, Distributed Data)",
           "Project Reactor",
