@@ -224,7 +224,8 @@
         "logo": "/reactjs-cv/static/images/ubs.png",
         "items": [
           "Designed and developed microservices using <b>Java 8</b>, <b>Spring Boot</b> exposing <b>REST</b> APIs for external & internal clients.",
-          "Integrated microservices using <b>Kafka</b> and <b>Kafka Streams</b>, with <b>Avro Schema</b> and <b>Schema Registry</b>.",
+          "Integrated microservices using <b>Kafka</b>, <b>Kafka Streams</b> and <b>Kafka Store</b>, with <b>Avro Schema</b> and <b>Schema Registry</b>.",
+          "Used <b>Reactive Programming</b> and exposed reactive APIs, using <b>Spring WebFlux</b> and <b>Reactive Cosmos DB</b> driver.",
           "Created a user interface to visualise complex data flow through microservices using <b>React JS</b> and <b>Material UI</>.",
           "Implemented <b>REST</b> APIs using <b>JWT</b> authentication and developed authorization service using <b>HSM</b> for external clients.",
           "Defined and built infrastructure on <b>Azure</b> and <b>Cosmos DB</b> using <b>Infrastructure as Code</b> approach with <b>Terraform</b>.",
@@ -266,8 +267,8 @@
         "items": [
           "Developed and integrated operable microservices using <b>Java 8</b>, <b>Spring Boot</b> backed with <b>MongoDB</b>.",
           "Integrated microservices with <b>Spring Cloud Config</b> to centralise and make config changes without interruption.",
-          "Implemented <b>GraphQL</b> based API to provide flexible, performant and client centric endpoint.",
-          "Provided reactive APIs using <b>Reactive Programming</b> with Java Reactor library and spring mvc reactor support.",
+          "Implemented <b>GraphQL</b> based API to provide flexible, performant and client centric endpoints.",
+          "Provided reactive APIs using <b>Reactive Programming</b> with <b>Java Reactor</b> library and <b>Spring MVC Reactor</b> support.",
           "Used <b>PCF</b> (Pivotal Cloud Foundry) to deploy, scale and maintain multiple environments for microservices.",
           "Integrated microservices with <b>Splunk</b> to monitor services and trace transactions for different environments.",
           "Worked in agile environment, developed microservices with <b>TDD</b>, <b>BDD</b>, <b>CI</b> and <b>CD</b>.",
