@@ -12,7 +12,7 @@
     "title": "PROFILE",
     "expanded": true,
     "items": [
-      "Extensive experience <b>over 20 years</b> in all phases of <b>software design</b> and <b>development</b>. Well versed with several <b>programming languages</b> and countless <b>frameworks</b> and tools for <b>back-end</b>, <b>front-end</b> and <b>mobile</b> development. Highly skilled in design and implementation of <b>scalable</b>, <b>high available</b>, <b>fault tolerant</b>, <b>containerised</b> applications and services on different <b>cloud</b> platforms. Several year experience of <b>technical leading</b>, <b>guiding</b> and <b>mentoring</b> team members for many projects. Strong understanding of applying <b>Agile</b> and <b>Extreme Programming</b>, Test Driven Development (<b>TDD</b>), Behaviour Driven Development (<b>BDD</b>), Continuous Integration (<b>CI</b>), Continuous Delivery (<b>CD</b>) and Infrastructure as Code (<b>IaC</b>). Comprehensive experience and business knowledge on <b>telecom</b>, <b>finance</b>, <b>media</b>, <b>e-commerce</b> and <b>payment</b> sectors.",
+      "Extensive experience <b>over 20 years</b> in all phases of <b>software design</b> and <b>development</b>. Well versed with several <b>programming languages</b> and countless <b>frameworks</b> and tools for <b>back-end</b>, <b>front-end</b> and <b>mobile</b> development. Highly skilled in design and implementation of <b>scalable</b>, <b>multithreaded</b> with <b>low latency</b>, <b>high available</b>, <b>fault tolerant</b>, <b>containerised</b> applications and services on different <b>cloud</b> platforms. Several year experience of <b>technical leading</b>, <b>guiding</b> and <b>mentoring</b> team members for many projects. Strong understanding of applying <b>Agile</b> and <b>Extreme Programming</b>, Test Driven Development (<b>TDD</b>), Behaviour Driven Development (<b>BDD</b>), Continuous Integration (<b>CI</b>), Continuous Delivery (<b>CD</b>) and Infrastructure as Code (<b>IaC</b>). Comprehensive experience and business knowledge on <b>telecom</b>, <b>finance</b>, <b>media</b>, <b>e-commerce</b> and <b>payment</b> sectors.",
       "Passionate about using <b>new technologies</b> and applying them to real world problems. Interested in <b>Computer Mathematics</b>, <b>Algorithms</b>, <b>Artificial Intelligence</b>, <b>Machine Learning</b> and <b>Deep Learning</b>."
     ]
   },
@@ -207,6 +207,7 @@
         "items": [
           "Designed and developed microservices using <b>Java 11, Spring Boot</b> exposing <b>REST</b> APIs for internal clients.",
           "Used <b>Docker</b> and <b>Kubernetes</b> to containerize the microservices, created <b>CI & CD</b> pipeline using <b>GitHub Actions</b>.",
+          "Developed microservices using <b>Multithreading</b> with <b>Low Latency</b>, using <b>Thread Pools</b> and <b>Java Executor Service</b>.",
           "Created a user interface to demo backend services using <b>React JS</b> and <b>Material UI</b>.",
           "Defined and built infrastructure on <b>Azure</b> with <b>AKS</b> using <b>Infrastructure as Code</b> approach with <b>Terraform</b> and <b>Helm</b>.",
           "<b>Other technologies used:</b> Lombok, Jira, IntelliJ, XCode, Gradle, JPos."
@@ -225,6 +226,7 @@
         "items": [
           "Designed and developed microservices using <b>Java 8</b>, <b>Spring Boot</b> exposing <b>REST</b> APIs for external & internal clients.",
           "Integrated microservices using <b>Kafka</b>, <b>Kafka Streams</b> and <b>Kafka Store</b>, with <b>Avro Schema</b> and <b>Schema Registry</b>.",
+          "Developed microservices to support thousands of transactions with <b>Multithreading</b> and <b>Low Latency</b>.",
           "Used <b>Reactive Programming</b> and exposed reactive APIs, using <b>Spring WebFlux</b> and <b>Reactive Cosmos DB</b> driver.",
           "Created a user interface to visualise complex data flow through microservices using <b>React JS</b> and <b>Material UI</>.",
           "Implemented <b>REST</b> APIs using <b>JWT</b> authentication and developed authorization service using <b>HSM</b> for external clients.",
@@ -248,7 +250,7 @@
           "Built infrastructure on <b>GCP</b> (Google Cloud Platform) using <b>Infrastructure as Code</b> approach with <b>Terraform</b>.",
           "Worked in agile environment, developed microservices <b>TDD</b>, <b>BDD</b>, fully automated <b>CI</b> and <b>CD</b>.",
           "Containerised and deployed microservices using <b>Docker</b>, <b>Kubernetes</b>, <b>Helm</b> on <b>GCP</b>.",
-          "Designed and created <b>highly available</b>, <b>low latency</b> services to support <b>10K</b> transaction per second.",
+          "Designed and created <b>highly available</b>, <b>multithreaded</b>, <b>low latency</b> services to support <b>20K</b> transaction per second.",
           "Integrated microservices with <b>EFK</b> (Elastic Search, FluentD, Kibana) for log monitoring and tracing.",
           "Designed to provide highly secure payment system will be deployed on <b>Critical National Infrastructure</b> of a country.",
           "<b>Other technologies used:</b> Flyway, Lombok, Jira, IntelliJ, Cucumber, Mockito, Spring JPA, Kotlin Test, Gradle, Maven, SonarQube, Snyk, Jacoco, PI Test, GitLab and GitLab Pipelines."
